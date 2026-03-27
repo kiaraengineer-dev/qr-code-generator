@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | QR code componente</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section>
+      <div id="container">
+        <div id="container-QR">
+          <img id="qr-img" src="images/image-qr-code.png" />
+          <h1>
+            Digite um link para gerar um código QR personalizado
+          </h1>
+          <p>
+            Aproveite para visitar o Frontend Mentor 
+            e levar suas habilidades de programação para o próximo nível.
+          </p>
+
+          <input type="text" id="qr-input" placeholder="Digite um link" />
+          <button onclick="gerarQR()">Gerar QR Code</button>
+
+          <a href="https://www.frontendmentor.io?ref=challenge " target="_blank"
+            >Frontend Mentor</a
+          >
+          Codificado por <a href="#">Kiara Toster</a>.
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
